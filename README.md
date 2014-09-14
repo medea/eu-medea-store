@@ -4,7 +4,7 @@ A [Medea](https://github.com/medea/medea) store for [Eu](https://github.com/cucu
 
 Medea is an embedded key-value storage library written in pure JavaScript.  Eu implements caching semantics on top of the `request` module.  This module allows a persistent, cross-platform HTTP client cache that's 100% JavaScript.  Yay!
 
-[![Build Status](https://api.travis-ci.org/medea/eu-medea-store.svg?branch=master)](https://travis-ci.org/medea/medea-ttl)
+[![Build Status](https://api.travis-ci.org/medea/eu-medea-store.svg?branch=master)](https://travis-ci.org/medea/eu-medea-store)
 
 ## Example
 
