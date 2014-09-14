@@ -1,24 +1,38 @@
 {
   "name": "eu-medea-store",
-  "version": "0.0.0",
-  "description": "Medea storage for Eu cache.",
+  "version": "0.1.0",
+  "description": "A Medea store for Eu, a caching HTTP client.",
   "main": "medea_store.js",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
-    "eu": "~1.2.3",
-    "medea": "~0.11.0",
-    "medea-ttl": "~0.0.0"
+    "medea": "~0.12.0",
+    "medea-ttl": "~0.1.1"
+  },
+  "peerDependencies": {
+    "eu": "~1.2.3"
   },
   "devDependencies": {
-    "eu": "^1.2.3"
+    "eu": "~1.2.3",
+    "mocha": "^1.21.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medea/eu-medea-store.git"
   },
   "keywords": [
-    "medea",
     "eu",
+    "medea",
     "cache"
   ],
   "author": "Kevin Swiber <kswiber@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medea/eu-medea-store/issues"
+  },
+  "homepage": "https://github.com/medea/eu-medea-store"
 }
