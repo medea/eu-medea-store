@@ -32,7 +32,14 @@ module.exports = function MedeaStore(db) {
         }
       });
 
-      db.write(batch);
+      db.write(batch, function(err) {
+        if (err) {
+          cb(err);
+          return;
+        }
+
+        cb(null, batch.operations.length);
+      });
     });
   };
 };

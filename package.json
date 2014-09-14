@@ -8,7 +8,9 @@
     "medea": "~0.11.0",
     "medea-ttl": "~0.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eu": "^1.2.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
